@@ -197,6 +197,7 @@ function ButtonWithExtraEvents() {
 | progressLoadingTime   | `Number`      | `3000`    | Number in `ms` for the maximum progress bar animation time |
 | textColor             | `String`      | `#FFFFFF` | Button default label text color                           |
 | textLineHeight        | `Number`      | `20`      | Button default label text line height                     |
+| textLetterSpacing     | `Number`      | `0`       | Button default label text letter spacing                  |
 | textSize              | `Number`      | `16`      | Button default label text font size                       |
 | textFontFamily        | `String`      | `null`    | Button default label text font family                     |
 | style                 | `Style`       | `null`    | Button container custom styles                            |
