@@ -23,6 +23,7 @@ type DynamicStyles = {
   textFontFamily?: string;
   textColor?: string;
   textLineHeight?: number;
+  textLetterSpacing?: number;
   textSize?: number;
   width?: number | null;
   stateWidth?: number | null;
@@ -52,6 +53,7 @@ export const getStyles = ({
   textColor,
   textFontFamily,
   textLineHeight,
+  textLetterSpacing,
   textSize,
   width,
 }: DynamicStyles) => {
@@ -79,6 +81,7 @@ export const getStyles = ({
       color: textColor,
       fontSize: textSize,
       fontFamily: textFontFamily,
+      letterSpacing: textLetterSpacing,
     },
     container__placeholder: {
       height: textLineHeight,
