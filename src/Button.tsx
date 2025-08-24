@@ -33,6 +33,7 @@ import {
   DEFAULT_HEIGHT,
   DEFAULT_HORIZONTAL_PADDING,
   DEFAULT_LINE_HEIGHT,
+  DEFAULT_LETTER_SPACING,
   DEFAULT_RAISE_LEVEL,
   DEFAULT_TEXT_COLOR,
   DEFAULT_TEXT_SIZE,
@@ -78,6 +79,7 @@ export type ButtonTypes = {
   textFontFamily?: string;
   textColor?: string;
   textLineHeight?: number;
+  textLetterSpacing?: number;
   textSize?: number;
   width?: number | null;
   children?: string | ReactNode;
@@ -135,6 +137,7 @@ const AwesomeButton = ({
   style = null,
   textColor = DEFAULT_TEXT_COLOR,
   textLineHeight = DEFAULT_LINE_HEIGHT,
+  textLetterSpacing = DEFAULT_LETTER_SPACING,
   textSize = DEFAULT_TEXT_SIZE,
   textFontFamily,
   width = DEFAULT_WIDTH,
@@ -194,6 +197,7 @@ const AwesomeButton = ({
     textColor,
     textFontFamily,
     textLineHeight,
+    textLetterSpacing,
     textSize,
     width,
   };
@@ -224,6 +228,7 @@ const AwesomeButton = ({
     textColor,
     textFontFamily,
     textLineHeight,
+    textLetterSpacing,
     textSize,
     width,
   ]);
