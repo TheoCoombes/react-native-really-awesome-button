@@ -132,7 +132,6 @@ export const styles = StyleSheet.create({
     zIndex: 10,
   },
   container__text: {
-    fontWeight: 'bold',
     zIndex: 10,
     textAlign: 'center',
   },
